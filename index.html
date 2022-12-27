@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>js classes</title>
+    </head>
+    <body>
+        <script>
+            /*syntex
+                class ClassName {
+                    
+                }
+            */
+           class MyClassA{//use in PascalCase
+                //1. method definetion
+                addition(x,y){
+                    //Every function return something
+                    return x+y;
+                }
+                //1. method definetion
+                myMultiplication(x,y){//use in camelcas
+                    //Every function return something
+                    return(x-y);
+                }
+           }
+           //create a object in class
+           //let object = new classname
+           //object.method
+           let obj = new MyClassA
+           console.log(obj.addition(3,5))//2. method colling/invoction
+        
+           let obj1 = new MyClassA
+           console.log(obj1.myMultiplication(20,10))//2. method colling/invoction
+        </script>
+        <script>
+            /*syntex
+                class ClassName {
+                    
+                }
+            */
+            class MyClassB{//use in PascalCase
+                //1. method definetion
+                studentname(){
+                    //Every function return something
+                    return 'deepak';
+                }
+
+            }
+            let obj2 = new MyClassB
+           console.log(obj2.studentname('deepak'))//2. method colling/invoction
+        </script>
+        <script>
+            /*syntex
+                class ClassName {
+                    
+                }
+            */
+            class MyClassC{//use in PascleCase
+                //1. method definetion
+                myClassColor(){
+                    //Every function return something
+                    return "white color";
+                }
+                myClassColor1(){
+                    //Every function return something
+                    return "chocleti color";
+                }
+                myClassColor2(){
+                    //Every function return something
+                    return "blu color";
+                }
+
+            }
+            let obj3 = new MyClassC
+            var result = obj3.myClassColor()
+            console.log(result)
+
+
+            var result1 = obj3.myClassColor1()
+            console.log(result1)
+
+
+            var result2 = obj3.myClassColor2()
+            console.log(result2)
+        </script>
+        <script>
+            /*syntex
+                class ClassName {
+                    
+                }
+            */
+            class MyClassD {
+                //1. method definetion
+                myClassData(){
+                   
+                    console.log('every student class data')
+                }
+            }
+            //2. Function Calling/Invocation/Execution/Execute/
+            //create object
+            let obj4 = new MyClassD 
+            console.log(obj4.myClassData())
+        </script>
+    </body>
+</html>
